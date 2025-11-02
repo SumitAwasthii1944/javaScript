@@ -4,18 +4,22 @@ body{
       background-color: #212121;
 
 }
-.header{
-          background-color: #212121;
-          color: aliceblue;
-          font-size: 50px;
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
-          padding-bottom: 20px;
-          padding-top: 20px;
-          margin-bottom: 130px;
-          
+.head {
+            display: flex;
+            justify-content: center;   /* Horizontally center */
+            align-items: center;       /* Vertically center (optional) */
+            padding: 1rem;             /* Optional spacing */
+            background-color:#212121; /* Optional background */
+            color: #fff;
+            margin-bottom: 150px;
+}
+
+.header {
+            font-size: 1.5rem;         /* Scales with screen size */
+            padding: 0.5rem 1rem;      /* Internal spacing */
+            width: fit-content;        /* Shrinks/grows to fit content */
+            max-width: 100%;           /* Prevents overflow */
+            text-align: center;        /* Centers text inside */
 }
 .main-item{
           display: flex;
